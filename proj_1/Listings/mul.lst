@@ -1,0 +1,30 @@
+C51 COMPILER V9.60.0.0   MUL                                                               12/02/2022 22:10:51 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE MUL
+OBJECT MODULE PLACED IN .\Objects\mul.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE mul.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\mul.l
+                    -st) TABS(2) OBJECT(.\Objects\mul.obj)
+
+line level    source
+
+   1          mul()
+   2          {
+   3   1        extern int i,j,k;
+   4   1        k=i-j;
+   5   1      }
+*** WARNING C290 IN LINE 5 OF mul.c: missing return value
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     14    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)
