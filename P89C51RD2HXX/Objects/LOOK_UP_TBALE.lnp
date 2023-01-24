@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\main.obj" 
+TO ".\Objects\LOOK_UP_TBALE" 
+PRINT(".\Listings\LOOK_UP_TBALE.m51") RAMSIZE(256) 
