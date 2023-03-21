@@ -9,7 +9,7 @@ void setup()
   DDRB=0X20;
   UCSR0A=0x00;
   UCSR0B=0xD0;//1101 0000 TRANS/REC
-  UBRR0=0x67;//BAUD RATE SELECTION 
+  UBRR0=0x07;//BAUD RATE SELECTION Formula = (crystal freq/16 * bdgen) - 1 this one is for 115200
   UDR0=0;//what is udr and why set to 0?? also what is serial transfer and also ask where the data entered in monitor is stored in
   interrupts();
 }
