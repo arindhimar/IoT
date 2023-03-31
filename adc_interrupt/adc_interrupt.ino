@@ -2,7 +2,7 @@ byte readflag = 0;
 int analogval = 0, analogval1 = 0, analogval2 = 0;
 
 void setup() {
-  UBRR0 = 0x19; // Set baud rate to 19200
+  UBRR0 = 0x65; // Set baud rate to 9600
 
   // Initialize USART registers
   UCSR0A = 0x00;
